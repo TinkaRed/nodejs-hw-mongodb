@@ -1,5 +1,4 @@
 import { getAllContacts, getContactById } from './services/contacts.js';
-
 import cors from 'cors';
 import express from 'express';
 import { getEnvVar } from './utils/getEnvVar.js';
