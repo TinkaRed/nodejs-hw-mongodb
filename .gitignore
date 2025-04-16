@@ -7,20 +7,3 @@
 .vscode
 .DS_Store
 .idea
-
-
-# mongoPass
-# mongodb+srv://Tinka:zcPWKQPvACg2bNW1@cluster0.qmlchv5.mongodb.net/
-# zcPWKQPvACg2bNW1
-# 'mongodb+srv://Tinka:zcPWKQPvACg2bNW1@cluster0.qmlchv5.mongodb.net/contacts?retryWrites=true&w=majority&appName=Cluster0',
-
-
-# mongodb+srv://Tinka:<db_password>@cluster0.qmlchv5.mongodb.net/
-# 'mongodb+srv://Tinka:zcPWKQPvACg2bNW1@cluster0.qmlchv5.mongodb.net/',
-# mongodb+srv://Tinka:zcPWKQPvACg2bNW1@cluster0.qmlchv5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
-# PORT=3000
-# MONGODB_USER=Tinka
-# MONGODB_PASSWORD=zcPWKQPvACg2bNW1
-# MONGODB_URL=cluster0.qmlchv5.mongodb.net
-# MONGODB_DB=HW2_mongo
