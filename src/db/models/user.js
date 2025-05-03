@@ -1,6 +1,6 @@
 import { Schema, model } from 'mongoose';
-import validator from 'validator';
 
+import validator from 'validator';
 
 const usersSchema = new Schema(
   {
@@ -13,7 +13,7 @@ const usersSchema = new Schema(
     },
     password: { type: String, required: true },
   },
-  { timestamps: true, versionKey: false }
+  { timestamps: true, versionKey: false },
 );
 
 usersSchema.methods.toJSON = function () {
@@ -23,15 +23,3 @@ usersSchema.methods.toJSON = function () {
 };
 
 export const UsersCollection = model('users', usersSchema);
-
-const contactsSchema = new Schema(
-  {
-    photo: { type: String },
-  },
-  {
-    timestamps: true,
-    versionKey: false,
-  }
-);
-
-export const ContactsCollection = model('contacts', contactsSchema);
