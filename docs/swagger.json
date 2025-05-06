@@ -372,7 +372,7 @@
                   "email": {
                     "description": "Contact's email",
                     "type": "string",
-                    "example": "andriy7@example.com"
+                    "example": "contact1@example.com"
                   },
                   "isFavourite": {
                     "description": "Is contact favourite",
